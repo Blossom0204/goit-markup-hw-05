@@ -51,9 +51,6 @@
   cursor: pointer;
   padding: 10px 32px;
 }
-.hero-button:hover,
-.hero-button:focus {
-}
 /* =====end-hero===== */
 /* =====section-features===== */
 .features-items {
@@ -189,6 +186,9 @@
   height: 44px;
   border-radius: 50%;
   background-color: var(--secondary-color);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list .icon {
   fill: #afb1b8;
@@ -219,6 +219,9 @@
   border-radius: 4px;
   width: 170px;
   height: 90px;
+  transition-property: color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list-link:not(:last-child) {
   margin-right: 30px;
@@ -278,6 +281,9 @@
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-gallery:hover,
 .btn-gallery:focus {
@@ -295,6 +301,9 @@
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  transition-property: border, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-item:nth-child(3n) {
   margin-right: 0;

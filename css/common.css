@@ -59,6 +59,9 @@ img {
   line-height: 1.172;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =====end-header====== */
 /* =====components===== */
@@ -127,6 +130,9 @@ img {
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =====end-header===== */
 
@@ -175,11 +181,17 @@ img {
 .contacts-footer-link {
   color: var(--secondary-color);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-footer-mail,
 .contacts-footer-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-title {
   font-weight: 700;
@@ -199,6 +211,9 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-footer .icon {
   fill: var(--secondary-color);
