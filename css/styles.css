@@ -308,10 +308,6 @@
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
-
-  transition-property: border, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-item:nth-child(3n) {
   margin-right: 0;
@@ -332,6 +328,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
 }
 .filter-btn-text {
   margin-left: 24px;
@@ -371,7 +368,9 @@
 }
 .filter-link {
   display: block;
-  width: 370px;
+  text-decoration: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-item:hover .overlay,
 .filter-item:focus .overlay {
